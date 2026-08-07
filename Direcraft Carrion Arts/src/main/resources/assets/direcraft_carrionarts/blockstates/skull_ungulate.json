@@ -1,20 +1,19 @@
 {
   "variants": {
     "facing=east": {
-      "model": "direcraft_carrionarts:block/skull_ungulate",
-      "y": 270
+      "model": "direcraft_carrionarts:block/skull_ungulate"
     },
     "facing=north": {
       "model": "direcraft_carrionarts:block/skull_ungulate",
-	  "y": 180
+      "y": 270
     },
     "facing=south": {
-      "model": "direcraft_carrionarts:block/skull_ungulate"
-
+      "model": "direcraft_carrionarts:block/skull_ungulate",
+	   "y": 90
     },
     "facing=west": {
       "model": "direcraft_carrionarts:block/skull_ungulate",
-      "y": 90
+	  "y": 180
     }
   }
 }

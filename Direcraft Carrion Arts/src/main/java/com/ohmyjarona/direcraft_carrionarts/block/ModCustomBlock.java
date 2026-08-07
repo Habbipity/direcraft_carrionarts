@@ -59,4 +59,12 @@ public class ModCustomBlock {
 					.explosionResistance(0)
 					.noOcclusion()
 			));
+	
+	public static final DeferredBlock<SkullBlock> SKULL_BOVINE = registerBlock("skull_bovine", 
+			() -> new SkullBlock(BlockBehaviour.Properties.of()
+					.strength(1)
+					.sound(SoundType.BONE_BLOCK)
+					.explosionResistance(0)
+					.noOcclusion()
+			));
 }

@@ -4,7 +4,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "direcraft_carrionarts:block/skull_carnivora",
-		"particle": "minecraft:bone_block"
+		"particle": "minecraft:block/bone_block_top"
 	},
 	"elements": [
 		{

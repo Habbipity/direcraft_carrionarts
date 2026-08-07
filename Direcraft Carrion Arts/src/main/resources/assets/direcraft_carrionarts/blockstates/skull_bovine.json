@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "direcraft_carrionarts:block/skull_bovine"
+    },
+    "facing=north": {
+      "model": "direcraft_carrionarts:block/skull_bovine",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "direcraft_carrionarts:block/skull_bovine",
+	   "y": 90
+
+    },
+    "facing=west": {
+      "model": "direcraft_carrionarts:block/skull_bovine",
+	  "y": 180
+    }
+  }
+}
