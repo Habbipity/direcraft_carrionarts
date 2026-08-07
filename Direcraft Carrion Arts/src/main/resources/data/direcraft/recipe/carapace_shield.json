@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "minecraft:bone"
+    },
+    "X": {
+      "item": "direcraft_carrionarts:chitin_shell"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "#X#",
+    "#X#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "direcraft_carrionarts:carapace_shield"
+  }
+}

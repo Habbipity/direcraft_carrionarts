@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:turtle_scute"
+    },
+  	"O": {
+  	  "item": "minecraft:leather_boots"
+  	}
+  },
+  "pattern": [
+    "X X",
+    "XOX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "direcraft_carrionarts:carapace_boots"
+  }
+}

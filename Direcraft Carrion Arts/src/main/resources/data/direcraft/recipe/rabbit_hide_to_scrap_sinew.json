@@ -3,11 +3,17 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
     }
   ],
   "result": {
-    "count": 2,
+    "count": 1,
     "id": "direcraft_carrionarts:scrap_sinew"
   }
 }

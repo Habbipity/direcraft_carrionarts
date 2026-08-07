@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:bone"
+    }
+  },
+  "pattern": [
+    " XX",
+    "X# ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "direcraft_carrionarts:bone_adze"
+  }
+}

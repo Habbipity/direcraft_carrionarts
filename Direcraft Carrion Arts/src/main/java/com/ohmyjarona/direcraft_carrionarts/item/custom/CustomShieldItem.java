@@ -3,10 +3,7 @@ package com.ohmyjarona.direcraft_carrionarts.item.custom;
 
 import com.ohmyjarona.direcraft_carrionarts.DirecraftCarrionArts;
 
-import net.minecraft.core.component.DataComponents;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ShieldItem;
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:bamboo"
+    },
+    "~": {
+      "item": "direcraft_carrionarts:tough_cordage"
+    }
+  },
+  "pattern": [
+    "I~I",
+    "I I",
+    "I I"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:scaffolding"
+  }
+}

@@ -1,7 +1,7 @@
 {
 	"parent" : "minecraft:item/generated",
 	"textures" : {
-		"layer0" : "direcraft_carrionarts:item/chitin_plate"
+		"layer0" : "direcraft_carrionarts:item/tough_cordage"
 	}
 
 }

@@ -7,26 +7,16 @@ import com.ohmyjarona.direcraft_carrionarts.item.custom.AdzeItem;
 import com.ohmyjarona.direcraft_carrionarts.item.custom.CustomShieldItem;
 import com.ohmyjarona.direcraft_carrionarts.item.custom.MattockItem;
 
-import net.minecraft.core.component.DataComponents;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.TagKey;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
 
 import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ShovelItem;
-
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.common.SimpleTier;
-import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -41,12 +31,10 @@ public class ModItem {
 	public static final DeferredItem<Item> BONE_SHARD = ITEMS.register("bone_shard", () -> new Item(new Item.Properties()));
 	public static final DeferredItem<Item> GELATIN = ITEMS.register("gelatin", () -> new Item(new Item.Properties()));
 	public static final DeferredItem<Item> SCRAP_SINEW = ITEMS.register("scrap_sinew", () -> new Item(new Item.Properties()));
-	public static final DeferredItem<Item> ADIPOSE = ITEMS.register("adipose", () -> new Item(new Item.Properties()));
-	public static final DeferredItem<Item> OFFAL = ITEMS.register("offal", () -> new Item(new Item.Properties()));
 	public static final DeferredItem<Item> CHITIN_SHELL = ITEMS.register("chitin_shell", () -> new Item(new Item.Properties()));
-	public static final DeferredItem<Item> THICK_PELT = ITEMS.register("thick_pelt", () -> new Item(new Item.Properties()));
-	public static final DeferredItem<Item> ANIMAL_HAIR = ITEMS.register("animal_hair", () -> new Item(new Item.Properties()));
-	
+	//public static final DeferredItem<Item> THICK_PELT = ITEMS.register("thick_pelt", () -> new Item(new Item.Properties()));
+	//public static final DeferredItem<Item> ANIMAL_HAIR = ITEMS.register("animal_hair", () -> new Item(new Item.Properties()));
+	public static final DeferredItem<Item> TOUGH_CORDAGE = ITEMS.register("tough_cordage", () -> new Item(new Item.Properties()));
 	
 	//========= Tools and Equipment =========
 	public static final Tier BONE_TIER = new SimpleTier(BlockTags.INCORRECT_FOR_IRON_TOOL, 190, 5f, 1f, 14,
@@ -77,6 +65,9 @@ public class ModItem {
 	public static final Supplier<CustomShieldItem> TURTLE_SHIELD = ITEMS.register("turtle_shield", () -> 
 	new CustomShieldItem(new Item.Properties()));
 	
+	public static final Supplier<CustomShieldItem> CARAPACE_SHIELD = ITEMS.register("carapace_shield", () -> 
+	new CustomShieldItem(new Item.Properties()));
+	
 	//========= Food Items =========
 	public static final DeferredItem<Item> MARSHMALLOW = ITEMS.register("marshmallow", () 
 			-> new Item(new Item.Properties().food(new FoodProperties.Builder()
@@ -84,6 +75,17 @@ public class ModItem {
 					.saturationModifier(0.4f)
 					.build())));
 	
+	public static final DeferredItem<Item> ADIPOSE = ITEMS.register("adipose", () 
+			-> new Item(new Item.Properties().food(new FoodProperties.Builder()
+			.nutrition(2)
+			.saturationModifier(0.8f)
+			.build())));
+	
+	public static final DeferredItem<Item> OFFAL = ITEMS.register("offal", () 
+			-> new Item(new Item.Properties().food(new FoodProperties.Builder()
+			.nutrition(4)
+			.saturationModifier(0.6f)
+			.build())));
 	
 	//========= Armor Sets =========
 	//Bone Lamellar Set
@@ -111,5 +113,18 @@ public class ModItem {
 			ModArmorMaterial.TURTLESHELL_MATERIAL,ArmorItem.Type.BOOTS,props
 		));	
 	
+	//Carapace Set
+	public static final DeferredItem<ArmorItem> CARAPACE_HELMET = ITEMS.registerItem("carapace_helmet", props -> new ArmorItem(
+			ModArmorMaterial.CARAPACE_MATERIAL,ArmorItem.Type.HELMET,props
+		));
+	public static final DeferredItem<ArmorItem> CARAPACE_CHESTPLATE = ITEMS.registerItem("carapace_chestplate", props -> new ArmorItem(
+			ModArmorMaterial.CARAPACE_MATERIAL,ArmorItem.Type.CHESTPLATE,props
+		));	
+	public static final DeferredItem<ArmorItem> CARAPACE_LEGGINGS = ITEMS.registerItem("carapace_leggings", props -> new ArmorItem(
+			ModArmorMaterial.CARAPACE_MATERIAL,ArmorItem.Type.LEGGINGS,props
+		));	
+	public static final DeferredItem<ArmorItem> CARAPACE_BOOTS = ITEMS.registerItem("carapace_boots", props -> new ArmorItem(
+			ModArmorMaterial.CARAPACE_MATERIAL,ArmorItem.Type.BOOTS,props
+		));	
 }
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "-": {
+      "item": "direcraft_carrionarts:tough_cordage"
+    }
+  },
+  "pattern": [
+    "-#-",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bundle"
+  }
+}

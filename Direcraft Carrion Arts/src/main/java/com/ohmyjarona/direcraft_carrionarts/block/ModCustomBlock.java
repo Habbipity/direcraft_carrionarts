@@ -10,9 +10,6 @@ import com.ohmyjarona.direcraft_carrionarts.block.custom.CustomBlock;
 import com.ohmyjarona.direcraft_carrionarts.block.custom.SkullBlock;
 import com.ohmyjarona.direcraft_carrionarts.item.ModItem;
 
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
