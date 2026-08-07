@@ -1,7 +1,0 @@
-{
-	"parent" : "direcraftvultureculture:block/testblock",
-	"textures" : {
-		"all" : "direcraftvultureculture:block/testblock"
-	}
-
-}
