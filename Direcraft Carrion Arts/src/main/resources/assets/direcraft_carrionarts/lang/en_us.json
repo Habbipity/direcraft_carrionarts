@@ -1,0 +1,25 @@
+{
+  "itemGroup.direcraft_carrionarts": "Direcraft Carrion Arts",
+
+  "item.direcraft_carrionarts.bone_shard": "Bone Shard",
+  "item.direcraft_carrionarts.gelatin": "Gelatin",
+  "item.direcraft_carrionarts.scrap_sinew": "Scrap Sinew",
+  "item.direcraft_carrionarts.adipose": "Adipose",
+  "item.direcraft_carrionarts.offal": "Offal",
+
+  "item.direcraft_carrionarts.bone_knife": "Bone Knife",
+  "item.direcraft_carrionarts.bone_adze": "Bone Adze",
+  "item.direcraft_carrionarts.bone_mattock": "Bone Mattock",
+  "item.direcraft_carrionarts.marshmallow": "Marshmallow",
+  
+  "item.direcraft_carrionarts.bone_shield": "Layered Bone Shield",  
+  "item.direcraft_carrionarts.bone_helmet": "Bone Lamellar Helmet",
+  "item.direcraft_carrionarts.bone_chestplate": "Bone Lamellar Chestplate",
+  "item.direcraft_carrionarts.bone_leggings": "Bone Lamellar Leggings",
+  "item.direcraft_carrionarts.bone_boots": "Bone Lamellar Greaves",
+
+  "item.direcraft_carrionarts.turtle_shield": "Turtle Shell Shield",  
+  "item.direcraft_carrionarts.turtleshell_chestplate": "Turtle Shell Chestplate",
+  "item.direcraft_carrionarts.turtleshell_leggings": "Turtle Shell Leggings",
+  "item.direcraft_carrionarts.turtleshell_boots": "Turtle Shell Boots"
+}

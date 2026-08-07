@@ -1,0 +1,8 @@
+{
+	"variants" : {
+		"" : {
+			"model" : "direcraft_carrionarts:block/feather_down_block"
+		}
+		
+	}
+}

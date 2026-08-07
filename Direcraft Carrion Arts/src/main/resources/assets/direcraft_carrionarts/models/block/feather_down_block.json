@@ -1,0 +1,6 @@
+{
+	"parent" : "minecraft:block/cube_all",
+	"textures" : {
+		"all" : "direcraft_carrionarts:block/feather_down_block"
+	}
+}

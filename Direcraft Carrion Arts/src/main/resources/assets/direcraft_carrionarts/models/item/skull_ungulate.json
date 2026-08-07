@@ -1,0 +1,7 @@
+{
+	"parent" : "direcraft_carrionarts:block/skull_ungulate",
+	"textures" : {
+		"all" : "direcraft_carrionarts:block/skull_ungulate"
+	}
+
+}

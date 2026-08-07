@@ -1,0 +1,7 @@
+{
+	"parent" : "direcraft_carrionarts:block/chopping_stump_block",
+	"textures" : {
+		"all" : "direcraft_carrionarts:block/chopping_stump_block"
+	}
+
+}

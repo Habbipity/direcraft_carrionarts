@@ -1,0 +1,13 @@
+{
+  "itemGroup.direcraftvultureculture": "Direcraft Stuff",
+
+  "item.direcraftvultureculture.test": "Example Item",
+
+  "direcraftvultureculture.configuration.title": "Direcraft: Vulture Culture Configs",
+  "direcraftvultureculture.configuration.section.direcraftvultureculture.common.toml": "Direcraft: Vulture Culture Configs",
+  "direcraftvultureculture.configuration.section.direcraftvultureculture.common.toml.title": "Direcraft: Vulture Culture Configs",
+  "direcraftvultureculture.configuration.items": "Item List",
+  "direcraftvultureculture.configuration.logDirtBlock": "Log Dirt Block",
+  "direcraftvultureculture.configuration.magicNumberIntroduction": "Magic Number Text",
+  "direcraftvultureculture.configuration.magicNumber": "Magic Number"
+}

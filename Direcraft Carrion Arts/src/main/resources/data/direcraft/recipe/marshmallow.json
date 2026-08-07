@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "direcraft_carrionarts:gelatin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "direcraft_carrionarts:marshmallow"
+  }
+}

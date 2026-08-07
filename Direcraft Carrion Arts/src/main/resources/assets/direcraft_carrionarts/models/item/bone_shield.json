@@ -1,0 +1,115 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "direcraft_carrionarts:item/bone_shield"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [2.1, 0.1, 5.1],
+			"to": [13.9, 21.9, 5.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0.25, 0.25, 3.25, 5.75], "texture": "#0"},
+				"east": {"uv": [0, 0.25, 0.25, 5.75], "texture": "#0"},
+				"south": {"uv": [3.5, 0.25, 6.5, 5.75], "texture": "#0"},
+				"west": {"uv": [3.25, 0.25, 3.5, 5.75], "texture": "#0"},
+				"up": {"uv": [3.25, 0.25, 0.25, 0], "texture": "#0"},
+				"down": {"uv": [6.25, 0, 3.25, 0.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "plate",
+			"from": [0.5, -0.5, 4.8],
+			"to": [15.5, 22.5, 5.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8.3]},
+			"faces": {
+				"north": {"uv": [0, 6, 3.5, 11.5], "texture": "#0"},
+				"east": {"uv": [0, 6, 0, 11.5], "texture": "#0"},
+				"south": {"uv": [3.5, 6, 7, 11.5], "texture": "#0"},
+				"west": {"uv": [3.5, 6, 3.5, 11.5], "texture": "#0"},
+				"up": {"uv": [3.5, 6, 0, 6], "texture": "#0"},
+				"down": {"uv": [7, 6, 3.5, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [7, 8, 6],
+			"to": [9, 14, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 1.5, 8.5, 3], "texture": "#0"},
+				"east": {"uv": [6.5, 1.5, 8, 3], "texture": "#0"},
+				"south": {"uv": [10, 1.5, 10.5, 3], "texture": "#0"},
+				"west": {"uv": [8.5, 1.5, 10, 3], "texture": "#0"},
+				"up": {"uv": [8.5, 1.5, 8, 0], "texture": "#0"},
+				"down": {"uv": [9, 0, 8.5, 1.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [1, -5, 3.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [1, -5, 3.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-5, -3, 0],
+			"translation": [4.75, -12, 2.5],
+			"scale": [1.36, 1.22, 1.18]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -4, -1],
+			"translation": [6.5, -16, 0],
+			"scale": [1.56, 1.51, 1.67]
+		},
+		"ground": {
+			"rotation": [0, -175, -83],
+			"translation": [1, -1.75, 0.5],
+			"scale": [0.51, 0.51, 0.49]
+		},
+		"gui": {
+			"rotation": [27, 156, 0],
+			"translation": [0.5, -0.75, 0],
+			"scale": [0.61, 0.62, 0.72]
+		},
+		"head": {
+			"translation": [0, 0, -4.25]
+		},
+		"fixed": {
+			"translation": [0, -2.5, 0]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "plate",
+			"origin": [8, 11, 7],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "handle",
+			"origin": [8, 11, 7],
+			"scope": 0,
+			"color": 0,
+			"children": [2]
+		}
+	],
+    "overrides": [
+        {
+            "predicate": {
+                "direcraft_carrionarts:blocking": 1
+            },
+            "model": "direcraft_carrionarts:item/bone_shield_blocking"
+        }
+    ]
+}
