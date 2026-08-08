@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:entity",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -30,7 +29,7 @@
         }
       ],
       "rolls": 1.0
-    }
+    },
     {
       "bonus_rolls": 0.0,
       "entries": [
@@ -92,5 +91,6 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/llama"
+  "type": "minecraft:entity",
+  "random_sequence": "minecraft:entities/goat"
 }
