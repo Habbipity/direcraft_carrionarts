@@ -34,5 +34,13 @@
   "item.direcraft_carrionarts.turtle_shield": "Turtle Shell Shield",  
   "item.direcraft_carrionarts.turtleshell_chestplate": "Turtle Shell Chestplate",
   "item.direcraft_carrionarts.turtleshell_leggings": "Turtle Shell Leggings",
-  "item.direcraft_carrionarts.turtleshell_boots": "Turtle Shell Boots"
+  "item.direcraft_carrionarts.turtleshell_boots": "Turtle Shell Boots",
+  
+  "block.direcraft_carrionarts.skull_carnivora" : "Carnivora Skull",
+  "block.direcraft_carrionarts.skull_bovine" : "Bovine Skull",
+  "block.direcraft_carrionarts.skull_ungulate" : "Ungulate Skull",
+   
+  "block.direcraft_carrionarts.feather_down_block" : "Feather Down Block",
+  
+  "itemgroup.direcraft_carrionarts.maintab" : "Direcraft: Carrion Arts"
 }

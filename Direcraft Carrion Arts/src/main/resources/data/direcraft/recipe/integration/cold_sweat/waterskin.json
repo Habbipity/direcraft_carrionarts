@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "  S",
+    "LL ",
+    "LL "
+  ],
+  "key":
+  {
+    "S":
+    {
+      "tag": "c:strings"
+    },
+    "L":
+    {
+      "tag": "direcraft_carrionarts:offal"
+    }
+  },
+  "result":
+  {
+    "id": "cold_sweat:waterskin",
+    "count": 1
+  }
+}

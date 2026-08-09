@@ -10,12 +10,12 @@
 	}
   },
   "pattern": [
-    "XOX",
+    "X X",
     "XXX",
     "XXX"
   ],
   "result": {
     "count": 1,
-    "id": "direcraft_carrionarts:carapace_chestplate"
+    "id": "direcraft_carrionarts:turtleshell_chestplate"
   }
 }

@@ -44,7 +44,7 @@ public class ModItem {
 		new SwordItem(BONE_TIER, new Item.Properties().attributes(SwordItem.createAttributes(
 			BONE_TIER, 
 			2, //Damage Bonus 
-			-2.8f)))); //Attack Speed Modifier
+			-3.2f)))); //Attack Speed Modifier
 	
 	public static final Supplier<AdzeItem> BONE_ADZE = ITEMS.register("bone_adze", () -> 
 	new AdzeItem(BONE_TIER, new Item.Properties().attributes(AdzeItem.createAttributes(

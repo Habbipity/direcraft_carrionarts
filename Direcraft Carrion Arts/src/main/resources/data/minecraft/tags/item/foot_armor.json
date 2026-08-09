@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"direcraft_carrionarts:bone_chestplate",
+	"direcraft_carrionarts:carapace_chestplate",
+	"direcraft_carrionarts:turtleshell_chestplate"
+  ]
+}
