@@ -6,9 +6,8 @@ import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 import com.ohmyjarona.direcraft_carrionarts.DirecraftCarrionArts;
+import com.ohmyjarona.direcraft_carrionarts.block.custom.CarrionPileBlock;
 import com.ohmyjarona.direcraft_carrionarts.block.custom.ChoppingStumpBlock;
-import com.ohmyjarona.direcraft_carrionarts.block.custom.CustomBlock;
-import com.ohmyjarona.direcraft_carrionarts.block.custom.SkullBlock;
 import com.ohmyjarona.direcraft_carrionarts.item.ModItem;
 
 import net.minecraft.world.item.BlockItem;
@@ -46,13 +45,25 @@ public class ModBlock {
 	
 	public static final DeferredBlock<Block> FEATHER_DOWN_BLOCK = registerBlock("feather_down_block", 
 			() -> new Block(BlockBehaviour.Properties.of()
-					.strength(1)
+					.strength(0.4f)
 					.sound(SoundType.WOOL)
 					.ignitedByLava()
 					.explosionResistance(0)
 			));
 	
+	public static final DeferredBlock<CarrionPileBlock> CARRION_PILE = registerBlock("carrion_pile", 
+			() -> new CarrionPileBlock(BlockBehaviour.Properties.of()
+					.strength(0.4f)
+					.sound(SoundType.SLIME_BLOCK)
+					.explosionResistance(0)
+					.noOcclusion()
+					.noCollission()
+			));
+	
 
+	
+	
+	
 	public static final DeferredBlock<Block> CHOPPING_STUMP = registerBlock("chopping_stump_block", 
 			() -> new ChoppingStumpBlock(BlockBehaviour.Properties.of().noOcclusion()));	
 }

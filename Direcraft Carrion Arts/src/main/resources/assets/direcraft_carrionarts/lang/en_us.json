@@ -41,6 +41,7 @@
   "block.direcraft_carrionarts.skull_ungulate" : "Ungulate Skull",
    
   "block.direcraft_carrionarts.feather_down_block" : "Feather Down Block",
+  "block.direcraft_carrionarts.carrion_pile" : "Carrion Pile",
   
   "itemgroup.direcraft_carrionarts.maintab" : "Direcraft: Carrion Arts"
 }

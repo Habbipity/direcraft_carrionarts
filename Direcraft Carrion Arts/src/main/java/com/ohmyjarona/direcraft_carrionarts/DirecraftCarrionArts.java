@@ -10,6 +10,8 @@ import com.ohmyjarona.direcraft_carrionarts.block.custom.entity.renderer.Choppin
 import com.ohmyjarona.direcraft_carrionarts.item.ModArmorMaterial;
 import com.ohmyjarona.direcraft_carrionarts.item.ModItem;
 
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -86,7 +88,12 @@ public class DirecraftCarrionArts {
         @SubscribeEvent
         public static void registerBlockEntityRenderer(EntityRenderersEvent.RegisterRenderers event) {
         	event.registerBlockEntityRenderer(ModBlockEntity.CHOPPING_STUMP_BE.get(), ChoppingStumpBlockEntityRenderer::new);
+        
+        	
+        ItemBlockRenderTypes.setRenderLayer(ModBlock.CARRION_PILE.get(), RenderType.CUTOUT);
         }
     	
+        
+        
     }
 }

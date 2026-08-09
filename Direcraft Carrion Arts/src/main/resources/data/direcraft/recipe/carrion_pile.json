@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "~": {
+      "item": "minecraft:bone"
+    }
+  },
+  "pattern": [
+    "~~",
+    "II"
+  ],
+  "result": {
+    "count": 1,
+    "id": "direcraft_carrionarts:carrion_pile"
+  }
+}

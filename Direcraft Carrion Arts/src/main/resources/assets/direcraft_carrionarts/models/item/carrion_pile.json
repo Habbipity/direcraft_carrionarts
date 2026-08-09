@@ -1,0 +1,7 @@
+{
+	"parent" : "direcraft_carrionarts:block/carrion_pile",
+	"textures" : {
+		"all" : "direcraft_carrionarts:block/carrion_pile"
+	}
+
+}

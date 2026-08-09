@@ -4,10 +4,7 @@
   "key": {
     "X": {
       "item": "minecraft:turtle_scute"
-    },
-  	"O": {
-  	  "item": "minecraft:leather_boots"
-  	}
+    }
   },
   "pattern": [
     "X X",
