@@ -7,11 +7,17 @@ import net.minecraft.world.Containers;
 import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.items.ItemStackHandler;
 
 public class ChoppingStumpBlockEntity extends BlockEntity{
 
+	public ChoppingStumpBlockEntity(BlockEntityType<?> type, BlockPos pos, BlockState blockState) {
+		super(type, pos, blockState);
+		// TODO Auto-generated constructor stub
+	}
+	/*
 	public ChoppingStumpBlockEntity(BlockPos pos, BlockState blockState) {
 		super(ModBlockEntity.CHOPPING_STUMP_BE.get(), pos, blockState);
 	}
@@ -58,5 +64,5 @@ public class ChoppingStumpBlockEntity extends BlockEntity{
 	protected void loadAdditional(CompoundTag tag, HolderLookup.Provider registries) {
 		inventory.deserializeNBT(registries, tag.getCompound("inventory"));
 	}
-	
+	*/
 }

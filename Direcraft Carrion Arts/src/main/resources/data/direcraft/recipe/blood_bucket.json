@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "direcraft_carrionarts:offal"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "direcraft_carrionarts:offal"
+    },
+    {
+      "item": "direcraft_carrionarts:offal"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "direcraft_carrionarts:blood_bucket"
+  }
+}

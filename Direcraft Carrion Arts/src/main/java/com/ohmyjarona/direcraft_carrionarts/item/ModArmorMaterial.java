@@ -2,8 +2,7 @@ package com.ohmyjarona.direcraft_carrionarts.item;
 
 import java.util.EnumMap;
 import java.util.List;
-import java.util.function.Supplier;
-
+import net.minecraft.world.item.Items;
 import com.ohmyjarona.direcraft_carrionarts.DirecraftCarrionArts;
 
 import net.minecraft.Util;
@@ -57,7 +56,7 @@ public class ModArmorMaterial {
 			        }), 
 					15, 
 					SoundEvents.ARMOR_EQUIP_GENERIC, 
-					() -> Ingredient.of(ModItem.BONE_SHARD), 
+					() -> Ingredient.of(Items.TURTLE_SCUTE), 
 					List.of(
 							new ArmorMaterial.Layer(ResourceLocation.fromNamespaceAndPath(DirecraftCarrionArts.MODID, "turtleshell")),
 							new ArmorMaterial.Layer(ResourceLocation.fromNamespaceAndPath(DirecraftCarrionArts.MODID, "turtleshell"))

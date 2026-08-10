@@ -28,12 +28,16 @@ public class ModCreativeTab {
 		    .displayItems((params, output) -> {
 		        output.accept(ModItem.BONE_SHARD.get());
 		        output.accept(ModItem.GELATIN.get());
-		        output.accept(ModItem.ADIPOSE.get());
-		        output.accept(ModItem.OFFAL.get());
 		        output.accept(ModItem.SCRAP_SINEW.get());
 		        output.accept(ModItem.TOUGH_CORDAGE.get());
 		        output.accept(ModItem.CHITIN_SHELL.get());
+		        
 		        output.accept(ModItem.MARSHMALLOW.get());
+		        output.accept(ModItem.ADIPOSE.get());
+		        output.accept(ModItem.OFFAL.get());
+		        output.accept(ModItem.BLOOD_BOTTLE.get());
+		        
+		        output.accept(ModItem.BLOOD_BUCKET.get());
 		        
 		        output.accept(ModItem.BONE_KNIFE.get());
 		        output.accept(ModItem.BONE_ADZE.get());		        
@@ -58,10 +62,12 @@ public class ModCreativeTab {
 		        output.accept(ModItem.TURTLESHELL_BOOTS.get());		        
 		        
 		        output.accept(ModBlock.FEATHER_DOWN_BLOCK.get());
+		        output.accept(ModBlock.CARRION_PILE.get());	
 		        
 		        output.accept(ModCustomBlock.SKULL_BOVINE.get());
 		        output.accept(ModCustomBlock.SKULL_CARNIVORA.get());
 		        output.accept(ModCustomBlock.SKULL_UNGULATE.get());
+
 		    })
 		    .build()
 		);

@@ -19,6 +19,13 @@ import net.minecraft.world.level.LightLayer;
 
 public class ChoppingStumpBlockEntityRenderer implements BlockEntityRenderer<ChoppingStumpBlockEntity> {
 
+	@Override
+	public void render(ChoppingStumpBlockEntity blockEntity, float partialTick, PoseStack poseStack,
+			MultiBufferSource bufferSource, int packedLight, int packedOverlay) {
+		// TODO Auto-generated method stub
+		
+	}
+/*
 	
 	public ChoppingStumpBlockEntityRenderer(BlockEntityRendererProvider.Context context) {}
 	
@@ -51,5 +58,5 @@ public class ChoppingStumpBlockEntityRenderer implements BlockEntityRenderer<Cho
 		
 		return LightTexture.pack(blockLight, skyLight);
 	}
-	
+	*/
 }

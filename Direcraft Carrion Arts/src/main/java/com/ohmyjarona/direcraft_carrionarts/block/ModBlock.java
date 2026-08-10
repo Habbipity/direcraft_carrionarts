@@ -8,13 +8,17 @@ import com.mojang.logging.LogUtils;
 import com.ohmyjarona.direcraft_carrionarts.DirecraftCarrionArts;
 import com.ohmyjarona.direcraft_carrionarts.block.custom.CarrionPileBlock;
 import com.ohmyjarona.direcraft_carrionarts.block.custom.ChoppingStumpBlock;
+import com.ohmyjarona.direcraft_carrionarts.fluid.ModFluid;
 import com.ohmyjarona.direcraft_carrionarts.item.ModItem;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.FlowingFluid;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -62,8 +66,11 @@ public class ModBlock {
 	
 
 	
+	public static final Supplier<? extends LiquidBlock> BLOOD_FLUID_BLOCK = BLOCKS.register("blood_fluid_block", 
+			() -> new LiquidBlock(ModFluid.SOURCE_BLOOD.get(), BlockBehaviour.Properties.ofFullCopy(Blocks.WATER))
+			);
 	
-	
+	/*
 	public static final DeferredBlock<Block> CHOPPING_STUMP = registerBlock("chopping_stump_block", 
-			() -> new ChoppingStumpBlock(BlockBehaviour.Properties.of().noOcclusion()));	
+			() -> new ChoppingStumpBlock(BlockBehaviour.Properties.of().noOcclusion()));	*/
 }

@@ -7,6 +7,8 @@ import com.ohmyjarona.direcraft_carrionarts.block.ModBlock;
 import com.ohmyjarona.direcraft_carrionarts.block.ModCustomBlock;
 import com.ohmyjarona.direcraft_carrionarts.block.custom.entity.ModBlockEntity;
 import com.ohmyjarona.direcraft_carrionarts.block.custom.entity.renderer.ChoppingStumpBlockEntityRenderer;
+import com.ohmyjarona.direcraft_carrionarts.fluid.ModFluid;
+import com.ohmyjarona.direcraft_carrionarts.fluid.ModFluidType;
 import com.ohmyjarona.direcraft_carrionarts.item.ModArmorMaterial;
 import com.ohmyjarona.direcraft_carrionarts.item.ModItem;
 
@@ -62,7 +64,8 @@ public class DirecraftCarrionArts {
         ModBlockEntity.register(modEventBus);
         ModCustomBlock.register(modEventBus);
         ModCreativeTab.register(modEventBus);
-        
+        ModFluid.register(modEventBus);
+        ModFluidType.register(modEventBus);
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (DirecraftVultureCulture) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
@@ -87,7 +90,7 @@ public class DirecraftCarrionArts {
     public static class ClientModEvents{
         @SubscribeEvent
         public static void registerBlockEntityRenderer(EntityRenderersEvent.RegisterRenderers event) {
-        	event.registerBlockEntityRenderer(ModBlockEntity.CHOPPING_STUMP_BE.get(), ChoppingStumpBlockEntityRenderer::new);
+        	//event.registerBlockEntityRenderer(ModBlockEntity.CHOPPING_STUMP_BE.get(), ChoppingStumpBlockEntityRenderer::new);
         
         	
         ItemBlockRenderTypes.setRenderLayer(ModBlock.CARRION_PILE.get(), RenderType.CUTOUT);

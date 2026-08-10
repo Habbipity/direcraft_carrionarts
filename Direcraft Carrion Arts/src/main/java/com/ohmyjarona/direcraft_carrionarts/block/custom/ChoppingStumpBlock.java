@@ -20,7 +20,24 @@ import net.minecraft.world.level.block.RenderShape;
 
 public class ChoppingStumpBlock extends BaseEntityBlock{
 
+	protected ChoppingStumpBlock(Properties properties) {
+		super(properties);
+		// TODO Auto-generated constructor stub
+	}
 
+	@Override
+	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected MapCodec<? extends BaseEntityBlock> codec() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+/*
 	public static final MapCodec<ChoppingStumpBlock> CODEC = simpleCodec(ChoppingStumpBlock::new);
 	
 	public ChoppingStumpBlock(Properties properties) {
@@ -80,5 +97,5 @@ public class ChoppingStumpBlock extends BaseEntityBlock{
 				
 			}
 		return ItemInteractionResult.SUCCESS;
-        }
+        }*/
 }

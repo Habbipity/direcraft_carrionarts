@@ -14,9 +14,10 @@ public class ModBlockEntity {
 	public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = 
 			DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, DirecraftCarrionArts.MODID);
 	
+	/*
 	public static final Supplier<BlockEntityType<ChoppingStumpBlockEntity>> CHOPPING_STUMP_BE =
 			BLOCK_ENTITIES.register("chopping_stump_be", () -> BlockEntityType.Builder.of(
-					ChoppingStumpBlockEntity::new, ModBlock.CHOPPING_STUMP.get()).build(null));
+					ChoppingStumpBlockEntity::new, ModBlock.CHOPPING_STUMP.get()).build(null));*/
 	
 	public static void register(IEventBus eventBus) {
 		BLOCK_ENTITIES.register(eventBus);

@@ -1,0 +1,7 @@
+{
+	"parent" : "minecraft:item/generated",
+	"textures" : {
+		"layer0" : "direcraft_carrionarts:item/blood_bucket"
+	}
+
+}

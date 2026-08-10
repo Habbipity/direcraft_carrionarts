@@ -4,8 +4,6 @@
   "item.direcraft_carrionarts.bone_shard": "Bone Shard",
   "item.direcraft_carrionarts.gelatin": "Gelatin",
   "item.direcraft_carrionarts.scrap_sinew": "Scrap Sinew",
-  "item.direcraft_carrionarts.adipose": "Adipose",
-  "item.direcraft_carrionarts.offal": "Offal",
   "item.direcraft_carrionarts.tough_cordage": "Tough Cordage",
   "item.direcraft_carrionarts.chitin_shell": "Chitin Shell",
 
@@ -14,6 +12,11 @@
   "item.direcraft_carrionarts.bone_mattock": "Bone Mattock",
   
   "item.direcraft_carrionarts.marshmallow": "Marshmallow",
+  "item.direcraft_carrionarts.adipose": "Adipose",
+  "item.direcraft_carrionarts.offal": "Offal",
+  "item.direcraft_carrionarts.blood_bucket": "Bucket of Blood",
+  "item.direcraft_carrionarts.blood_bottle": "Bottle of Blood",
+
   
   "item.direcraft_carrionarts.skull_bovine": "Bovine Skull",  
   "item.direcraft_carrionarts.skull_ungulate": "Ungulate Skull",  
@@ -42,6 +45,8 @@
    
   "block.direcraft_carrionarts.feather_down_block" : "Feather Down Block",
   "block.direcraft_carrionarts.carrion_pile" : "Carrion Pile",
+  
+  "block.direcraft_carrionarts.blood_fluid_block" : "Blood",
   
   "itemgroup.direcraft_carrionarts.maintab" : "Direcraft: Carrion Arts"
 }

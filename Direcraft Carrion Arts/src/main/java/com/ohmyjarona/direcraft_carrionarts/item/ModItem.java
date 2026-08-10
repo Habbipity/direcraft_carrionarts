@@ -3,15 +3,18 @@ package com.ohmyjarona.direcraft_carrionarts.item;
 import java.util.function.Supplier;
 
 import com.ohmyjarona.direcraft_carrionarts.DirecraftCarrionArts;
+import com.ohmyjarona.direcraft_carrionarts.fluid.ModFluid;
 import com.ohmyjarona.direcraft_carrionarts.item.custom.AdzeItem;
 import com.ohmyjarona.direcraft_carrionarts.item.custom.CustomShieldItem;
+import com.ohmyjarona.direcraft_carrionarts.item.custom.DrinkableBottleItem;
 import com.ohmyjarona.direcraft_carrionarts.item.custom.MattockItem;
 
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
-
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -37,6 +40,20 @@ public class ModItem {
 	public static final DeferredItem<Item> TOUGH_CORDAGE = ITEMS.register("tough_cordage", () -> new Item(new Item.Properties()));
 	
 	//========= Tools and Equipment =========
+	
+	public static final DeferredItem<DrinkableBottleItem> BLOOD_BOTTLE = ITEMS.register("blood_bottle", () 
+			-> new DrinkableBottleItem(new Item.Properties().food(new FoodProperties.Builder()
+					.nutrition(2)
+					.saturationModifier(0.4f)
+					.build()).craftRemainder(Items.GLASS_BOTTLE)));
+	
+	public static final Supplier<BucketItem> BLOOD_BUCKET = ITEMS.register("blood_bucket", () -> 
+		new BucketItem(ModFluid.SOURCE_BLOOD.get(), new Item.Properties()
+		.stacksTo(1)
+		.craftRemainder(Items.BUCKET)
+		));
+	
+	
 	public static final Tier BONE_TIER = new SimpleTier(BlockTags.INCORRECT_FOR_IRON_TOOL, 190, 5f, 1f, 14,
 			() -> Ingredient.of(ModItem.BONE_SHARD));
 	
