@@ -7,6 +7,8 @@ import com.ohmyjarona.direcraft_carrionarts.fluid.ModFluid;
 import com.ohmyjarona.direcraft_carrionarts.item.custom.AdzeItem;
 import com.ohmyjarona.direcraft_carrionarts.item.custom.CustomShieldItem;
 import com.ohmyjarona.direcraft_carrionarts.item.custom.DrinkableBottleItem;
+import com.ohmyjarona.direcraft_carrionarts.item.custom.FuelItem;
+import com.ohmyjarona.direcraft_carrionarts.item.custom.JavelinItem;
 import com.ohmyjarona.direcraft_carrionarts.item.custom.MattockItem;
 
 import net.minecraft.tags.BlockTags;
@@ -35,11 +37,19 @@ public class ModItem {
 	public static final DeferredItem<Item> GELATIN = ITEMS.register("gelatin", () -> new Item(new Item.Properties()));
 	public static final DeferredItem<Item> SCRAP_SINEW = ITEMS.register("scrap_sinew", () -> new Item(new Item.Properties()));
 	public static final DeferredItem<Item> CHITIN_SHELL = ITEMS.register("chitin_shell", () -> new Item(new Item.Properties()));
+	public static final DeferredItem<Item> ANIMAL_PARCHMENT = ITEMS.register("animal_parchment", () -> new Item(new Item.Properties()));
+	
+	public static final DeferredItem<FuelItem> COW_CHIP = ITEMS.register("cow_chip", () -> new FuelItem(new Item.Properties(), 600));
+		
+	
 	//public static final DeferredItem<Item> THICK_PELT = ITEMS.register("thick_pelt", () -> new Item(new Item.Properties()));
 	//public static final DeferredItem<Item> ANIMAL_HAIR = ITEMS.register("animal_hair", () -> new Item(new Item.Properties()));
 	public static final DeferredItem<Item> TOUGH_CORDAGE = ITEMS.register("tough_cordage", () -> new Item(new Item.Properties()));
 	
 	//========= Tools and Equipment =========
+	
+	public static final DeferredItem<JavelinItem> JAVELIN = ITEMS.register("javelin", 
+			() -> new JavelinItem(new Item.Properties().stacksTo(8)));
 	
 	public static final DeferredItem<DrinkableBottleItem> BLOOD_BOTTLE = ITEMS.register("blood_bottle", () 
 			-> new DrinkableBottleItem(new Item.Properties().food(new FoodProperties.Builder()
